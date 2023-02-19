@@ -1,0 +1,185 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 250px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 32px;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+}
+
+header nav {
+  margin-top: 86px;
+  margin-bottom: 64px;
+}
+
+header h1 {
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+header ul li {
+  list-style: none;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 200;
+  color: black;
+  cursor: pointer;
+}
+
+header nav ul li {
+  color: #757575;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header nav ul li:hover,  header ul li:hover{
+  color: black;
+  background-color: #CCC;
+}
+
+.navigation {
+  margin-left: 250px;
+  padding: 32px;
+}
+
+.page-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.page-title h2 {
+  font-weight: 400;
+}
+
+.page-title div img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.page-title div img:first-child {
+  margin-right: 16px;
+}
+
+.new-arrivals {
+  min-height: 544px;
+  width: calc(100% - 96px);
+  background-image: url('../img/photos/jeans.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 48px;
+}
+
+.new-arrivals h1, .new-arrivals h3, .new-arrivals a {
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.new-arrivals h1 {
+  font-size: 64px;
+  margin-bottom: 36px;
+  font-weight: 400;
+}
+
+.new-arrivals h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.new-arrivals a {
+  background-color: black;
+  text-transform: uppercase;
+  padding: 12px 24px;
+}
+
+.products h6 {
+  color: #757575;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.product-cards, .product-card-list {
+  width: 100%;
+}
+
+.product-card-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.product-card {
+  width: 200px;
+  cursor: pointer;
+}
+
+.product-card img, .product-card p {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.product-card img:hover {
+  filter: grayscale(90%);
+}
+
+.subscribe {
+  background-color: black;
+  padding: 52px 16px;
+}
+
+.subscribe h1, .subscribe h6, .subscribe button {
+  color: white;
+  font-weight: 300;
+}
+
+.subscribe h1 {
+  margin-bottom: 24px;
+  font-size: 48px;
+}
+
+.subscribe h6 {
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.subscribe form {
+  width: 100%;
+}
+
+.subscribe form input {
+  width: calc(100% - 24px);
+  border: none;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.subscribe form button {
+  padding: 12px 24px;
+  background-color: #f44336;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe form button:hover {
+  color: #000;
+  background-color: #ccc;
+}
